@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "boot": {
+    "load": ["GLOBAL_MINIMAL", "SECURITY_ROUTER"],
+    "recursive_load": false
+  },
+  "routing_order": ["security_domain", "project", "feature", "task"],
+  "cross_domain_default": "deny",
+  "cross_project_default": "deny",
+  "history_mode": "retrieve_not_preload",
+  "failure_registry_mode": "query_relevant_only",
+  "session_state": "handover_required_for_long_sessions"
+}
