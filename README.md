@@ -6,6 +6,8 @@
 >
 > Keep detailed context inside each project. Let the portfolio layer consume compact project health summaries. Give an AI agent only the context required for the current task.
 
+**Languages:** **English** · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md)
+
 ## What is KnowYourSelf?
 
 KnowYourSelf is a practical architecture for people who use **ChatGPT, Claude, Codex, Cursor, Gemini, and other AI coding or reasoning agents** as part of daily work.
@@ -71,7 +73,7 @@ Use **Context Projection** so AI agents receive task-scoped context instead of r
 
 Use compact **Project Health Snapshots** for cross-project governance, daily project audits, risk tracking, pending owner decisions, and repeated failure patterns.
 
-## The core principles
+## Core principles
 
 ### 1. Local Detail, Global Summary
 
@@ -366,7 +368,7 @@ Separate stable memory, project memory, and session memory so long-running agent
 
 ## Start in 5 minutes
 
-### Step 1 — Give the Bootstrap Prompt to a capable reasoning agent
+### Step 1 — Choose a reasoning agent
 
 Open [`prompts/BOOTSTRAP_AGENT.md`](prompts/BOOTSTRAP_AGENT.md) and send it to GPT, Claude, Gemini, or another strong reasoning model.
 
@@ -494,11 +496,15 @@ A compact persistent state artifact that captures the current goal, accepted dec
 - [`Contributing Guide`](CONTRIBUTING.md)
 - [`Changelog`](CHANGELOG.md)
 
+## Language versions
+
+- **English (default):** `README.md`
+- [简体中文](README.zh-CN.md)
+- [繁體中文](README.zh-TW.md)
+
 ## Search topics
 
-KnowYourSelf is intended to be useful for people researching:
-
-**personal knowledge management, PKM, personal AI operating system, AI knowledge base, AI agent memory, persistent AI memory, agent context management, context engineering, context window management, human-in-the-loop AI, multi-agent workflows, AI coding agents, Codex workflow, Claude Code workflow, project context, project memory, session handover, AI agent orchestration, Notion knowledge management, Obsidian knowledge management, GitHub AI workflow, prompt engineering, agent reliability, AI workflow automation, project health monitoring, Failure Registry, knowledge governance, portable AI memory, and multi-company knowledge management.**
+KnowYourSelf is intended to be useful for people researching **personal knowledge management, PKM, personal AI operating systems, AI knowledge bases, AI agent memory, persistent AI memory, agent context management, context engineering, context window management, human-in-the-loop AI, multi-agent workflows, AI coding agents, Codex workflows, Claude Code workflows, project context, project memory, session handover, AI agent orchestration, Notion knowledge management, Obsidian knowledge management, GitHub AI workflows, prompt engineering, agent reliability, AI workflow automation, project health monitoring, Failure Registry, knowledge governance, portable AI memory, and multi-company knowledge management**.
 
 ## License
 
