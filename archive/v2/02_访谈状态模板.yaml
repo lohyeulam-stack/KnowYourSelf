@@ -1,0 +1,41 @@
+schema_version: 2
+mode: DISCOVERY
+implementation_authorized: false
+
+architecture_status: OPEN
+
+principles:
+  local_detail_global_summary: true
+  no_recursive_context_boot: true
+  knowledge_available_not_equal_context_loaded: true
+  conversation_ephemeral_state_persistent: true
+  project_autonomy_portfolio_governance: true
+
+routing:
+  order:
+    - security_domain
+    - project
+    - feature
+    - task
+  cross_domain_default: deny
+  cross_project_default: deny
+
+context:
+  l0_global_minimal: []
+  l1_domain: []
+  l2_project: []
+  l3_task: []
+  full_workspace_scan: forbidden
+
+security_domains: []
+projects: []
+
+confirmed_decisions: []
+superseded_decisions: []
+open_questions: []
+
+pilot:
+  authorized: false
+  scope: []
+
+next_question: "列出需要纳入系统的安全域，只需要代号和类型。"
